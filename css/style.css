@@ -41,8 +41,17 @@ img{
 .form-wrapper .output{
   height: 50px;
 }
+
 .blurred{
   filter: blur(10px);
+  transform: scale(110%);
+  transition: all 0.5s ease;
 }
+
+.blurred-out{
+  transition: all 0.5s ease;
+}
+
+
 
 

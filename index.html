@@ -19,7 +19,7 @@
     <div class="my_container" >
 
       
-      <img :src="image" :class="{blurred : isFocus }" alt="">
+      <img :src="image" :class="{blurred : isFocus, 'blurred-out' : !isFocus}" alt="">
       <div class="form-wrapper debug ">
         <input type="text" v-model="tempMessage" @keyup.enter="changer(tempMessage)" class="form-control my-input" @focus="isFocus = true"  @blur="isFocus = false">
         <h1 class="output" >{{message}}</h1>
