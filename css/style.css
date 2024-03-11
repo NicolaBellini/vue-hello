@@ -7,8 +7,8 @@
   align-items: center;
   flex-direction: column;
   justify-content: center;
-  background-image: img;
-  overflow: hidden;
+
+  background-size: cover;
 }
 
 img{

@@ -5,7 +5,7 @@ createApp({
     return {
       message:'Un passo alla Vuelta!',
       tempMessage:'',
-      img:'url(https://unsplash.com/it/foto/un-primo-piano-di-un-uccello-con-la-testa-rossa-BUhVFtY-890)'
+      image:"assets/sfondo.jpg"
     }
   },
   methods: {
