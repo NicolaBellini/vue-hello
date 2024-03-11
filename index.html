@@ -20,11 +20,11 @@
 
       
       <img :src="image" :class="{blurred : isFocus, 'blurred-out' : !isFocus}" alt="">
-      <div class="form-wrapper debug ">
-        <input type="text" v-model="tempMessage" @keyup.enter="changer(tempMessage)" class="form-control my-input" @focus="isFocus = true"  @blur="isFocus = false">
+      <div class="form-wrapper text-white">
+        <input type="text" v-model="tempMessage" @keyup.enter="changer(tempMessage), isFocus=false" class="form-control my-input" @focus="isFocus = true"  @blur="isFocus = false" placeholder="A cosa stai pensando?">
         <h1 class="output" >{{message}}</h1>
-        <button class="btn btn-primary" @click="changer(tempMessage)">Compila e clicca!</button>
-        <button class="btn btn-primary m-2" @click="">clicckk</button>
+        <button class="btn btn-outline-light  " @click="changer(tempMessage)">Compila e clicca!</button>
+        <button class="btn btn-outline-light  m-2" @click="">clicckk</button>
       </div>
 
 

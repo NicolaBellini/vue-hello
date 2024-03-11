@@ -3,7 +3,7 @@ const {createApp} = Vue;
 createApp({
   data() {
     return {
-      message:'Un passo alla Vuelta!',
+      message:'Un passo alla Vuelta !',
       tempMessage:'',
       image:"assets/sfondo.jpg",
       blurredClass: 'blurred',
@@ -14,10 +14,7 @@ createApp({
     changer(string){
       this.message = string;
     },
-    // focussed(){
-    //   this.isFocus = true
-    // },
-
+    
   },
   mounted() {
     console.log('ciao');

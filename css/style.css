@@ -31,6 +31,8 @@ img{
   height: 400px;
   padding: 90px;
   z-index: 2;
+  background-color: rgba(87, 87, 87, 0.362);
+  border-radius: 20px;
 }
 
 .form-wrapper >*{
