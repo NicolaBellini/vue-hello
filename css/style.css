@@ -7,7 +7,6 @@
   align-items: center;
   flex-direction: column;
   justify-content: center;
-
   background-size: cover;
 }
 
@@ -30,14 +29,20 @@ img{
   flex-direction: column;
   width: 600px;
   height: 400px;
-  padding: 90px
-
+  padding: 90px;
+  z-index: 2;
 }
 
 .form-wrapper >*{
   margin: 10px;
+
 }
 
 .form-wrapper .output{
   height: 50px;
 }
+.blurred{
+  filter: blur(10px);
+}
+
+
