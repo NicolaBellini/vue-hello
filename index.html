@@ -24,9 +24,13 @@
         <input type="text" v-model="tempMessage" @keyup.enter="changer(tempMessage), isFocus=false" class="form-control my-input" @focus="isFocus = true"  @blur="isFocus = false" placeholder="A cosa stai pensando?">
         <h1 class="output" >{{message}}</h1>
         <button class="btn btn-outline-light  " @click="changer(tempMessage)">Compila e clicca!</button>
-        <button class="btn btn-outline-light  m-2" @click="">clicckk</button>
       </div>
-
+      <div class="carousel-container text-white">
+        <div class="word-carousel" :style="{ transform: `translateX(${offset}px)` }">
+          <span v-for="(word, index) in caruselWords" :key="index" class="word">{{ word }}</span>
+        </div>
+      </div>
+      
 
     </div>
   </div>
