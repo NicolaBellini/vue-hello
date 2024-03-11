@@ -14,9 +14,9 @@ createApp({
     changer(string){
       this.message = string;
     },
-    focussed(){
-      this.isFocus = true
-    },
+    // focussed(){
+    //   this.isFocus = true
+    // },
 
   },
   mounted() {
