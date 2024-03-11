@@ -18,8 +18,9 @@
   <div id="app">
     <div class="container my-5 ">
       <input type="text" v-model="tempMessage">
-      <h1>{{message}}</h1>
+      <h1 class="output">{{message}}</h1>
       <button class="btn btn-primary" @click="changer(tempMessage)">Compila e clicca!</button>
+      <button class="btn btn-primary m-2" @click="counter++, console.log(counter)">clicckk</button>
     </div>
   </div>
   
