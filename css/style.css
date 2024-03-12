@@ -54,32 +54,5 @@ img{
   transition: all 0.5s ease;
 }
 
-.carousel-container {
-  height: 150px;
-  width: 100%; /* Larghezza del contenitore */
-  overflow: hidden; /* Nasconde le parole che escono dalla vista */
-  display: flex;
-  justify-content: center;
-  margin-top: 100px;
-}
 
-.word-carousel {
-  display: inline-flex;
-  animation: scroll linear infinite; /* Applica l'animazione di scorrimento continuo */
-}
-
-.word {
-  box-shadow: inset 20px 0 0 0 rgba(132, 74, 74, 0.402);
-  font-size: 4rem;
-  margin-right: 400px; /* Spazio tra le parole */
-}
-
-@keyframes scroll {
-  from {
-    transform: translateX(0); /* Inizia dal punto di partenza */
-  }
-  to {
-    transform: translateX(100%); /* Si sposta verso sinistra */
-  }
-}
 

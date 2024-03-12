@@ -25,12 +25,8 @@
         <h1 class="output" >{{message}}</h1>
         <button class="btn btn-outline-light  " @click="changer(tempMessage)">Compila e clicca!</button>
       </div>
-      <div class="carousel-container text-white">
-        <div class="word-carousel" :style="{ transform: `translateX(${offset}px)` }">
-          <span v-for="(word, index) in caruselWords" :key="index" class="word">{{ word }}</span>
-        </div>
-      </div>
       
+     
 
     </div>
   </div>
